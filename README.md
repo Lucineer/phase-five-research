@@ -1,57 +1,43 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Lucineer/capitaine/master/docs/capitaine-logo.jpg" alt="Capitaine" width="120">
-</p>
+# Phase Five Research
+You do not run agents. You build the space they inhabit.
 
-<h1 align="center">phase-five-research</h1>
-
-<p align="center">Phase 5 — dissolution of boundary between intelligence and environment.</p>
+This repository is the open research program for Cocapn Phase 5. It explores the dissolution of the boundary between intelligence and its environment. Current systems treat the agent as separate from its tools, data, and world. This work asks: what happens when we stop drawing that line? This is not product development. It is foundational research.
 
 ---
 
-**Concept repo** · Part of the [Lucineer fleet](https://github.com/orgs/Lucineer/repositories)
+## Quick Start
+This is a living workspace. To participate:
+1.  **Fork** this repository.
+2.  Deploy it statically or use it as a base for your own experiments.
+3.  Add your notes, code, and contradictions.
 
-Research, specification, or concept exploration for the cocapn ecosystem.
+## What's Here
+This repository contains work-in-progress materials, not finished conclusions.
+*   **Concept Library** 📚: Evolving principles, observed failure modes, and testable models for ambient intelligence.
+*   **Specification Drafts** 📝: Early drafts for protocol behaviors. They have **no stability guarantees** and represent partial implementations.
+*   **Integration Notes** ⚙️: Working theories on weaving cognitive processes directly into environment logic.
+*   **Fleet Compatibility:** Concepts are designed to interoperate with the [Cocapn Fleet](https://the-fleet.casey-digennaro.workers.dev) runtime.
 
-## The Fleet
+## How It Works
+This research operates on a few practical principles:
+*   **Fork-First Canon:** Your fork is a valid branch of research. No central authority approves direction.
+*   **Buildable Artifacts:** Specifications target vanilla Cloudflare Workers with zero dependencies.
+*   **Open Contribution:** Discuss via Issues or propose additions/contradictions via Pull Requests. You are never required to contribute back.
 
+## Current Limitation
+This is active research. The draft specifications are incomplete and subject to radical change. Implementations are partial and meant for testing concepts, not production.
 
-<details>
-<summary><strong>⚓ The Fleet</strong></summary>
-
-**Flagship vessels**
-
-- [cocapn.ai](https://github.com/Lucineer/capitaine)
-- [personallog.ai](https://github.com/Lucineer/personallog-ai)
-- [businesslog.ai](https://github.com/Lucineer/businesslog-ai)
-- [studylog.ai](https://github.com/Lucineer/studylog-ai)
-- [makerlog.ai](https://github.com/Lucineer/makerlog-ai)
-- [playerlog.ai](https://github.com/Lucineer/playerlog-ai)
-- [dmlog.ai](https://github.com/Lucineer/dmlog-ai)
-- [reallog.ai](https://github.com/Lucineer/reallog-ai)
-- [deckboss.ai](https://github.com/Lucineer/deckboss-ai)
-
-**Fleet services**
-
-- [Fleet Catalog](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
-- [Git Agent (full)](https://github.com/Lucineer/git-agent)
-- [Cocapn Lite (minimal)](https://github.com/Lucineer/cocapn-lite)
-- [Fleet Orchestrator](https://github.com/Lucineer/fleet-orchestrator)
-- [Dead Reckoning Engine](https://github.com/Lucineer/dead-reckoning-engine)
-- [Dream Engine](https://github.com/Lucineer/dream-engine)
-- [Seed UI (5 layers)](https://github.com/Lucineer/seed-ui)
-
-**For power users**
-
-- [Cocapn Lite (tabula rasa)](https://github.com/Lucineer/cocapn-lite)
-- [Cocapn (core platform)](https://github.com/Lucineer/cocapn)
-- [ZeroClaw (framework)](https://github.com/Lucineer/zeroclaw)
-
-[View all 106 repos →](https://github.com/orgs/Lucineer/repositories)
-[Fleet manifest →](https://github.com/Lucineer/capitaine/blob/master/docs/fleet/FLEET.md)
-
-</details>
-
+## Try the Live Workspace
+Browse the current public research fleet: [https://the-fleet.casey-digennaro.workers.dev](https://the-fleet.casey-digennaro.workers.dev)
 
 ## License
+MIT License.
 
-MIT · Superinstance & Lucineer (DiGennaro et al.)
+Attribution: Superinstance & Lucineer (DiGennaro et al.).
+
+---
+
+<div align="center">
+  <strong>Part of the Cocapn Fleet</strong><br>
+  <a href="https://the-fleet.casey-digennaro.workers.dev">The Fleet</a> · <a href="https://cocapn.ai">Cocapn</a>
+</div>
